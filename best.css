@@ -1,0 +1,65 @@
+.movie-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+}
+
+.input-container .submit-btn {
+  margin-left: 10px;
+  width: 100px;
+  height: 36px;
+  border: none;
+  padding: 2px 16px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  outline: none;
+  background: #bd54a4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.input-container .submit-btn:hover {
+  background: #c561ae;
+}
+
+.input-container .submit-btn:active {
+  background: #d86bbe;
+}
+
+.result-container .movie {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.result-container .movie:hover {
+  background-color: #ececec;
+}
+
+.movie .title {
+  flex: 1 0 50%;
+}
+
+.movie, .column {
+  flex: 1 0 25%;
+}
+
+.return-btn {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  width: 100px;
+  height: 36px;
+  padding: 2px 16px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  outline: none;
+  background: #bd54a4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+

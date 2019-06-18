@@ -1,0 +1,86 @@
+.user-container {
+  margin-top: 2rem;
+}
+
+.people-container .person {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.people-container .person:hover {
+  background-color: #ececec;
+}
+
+.person .title {
+  flex: 1 0 50%;
+}
+
+.person, .column {
+  flex: 1 0 25%;
+}
+
+.input-container .submit-btn {
+  margin-left: 8px;
+  width: 150px;
+  height: 25px;
+  border: none;
+  padding: 2px 14px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  outline: none;
+  background: #bd54a4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* .movie, .column {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+} */
+
+.input-container .submit-btn:hover {
+  background: #c561ae;
+}
+
+.input-container .submit-btn:active {
+  background: #d86bbe;
+}
+
+.user-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+}
+
+.result-container .movie {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.result-container .movie:hover {
+  background-color: #ececec;
+}
+
+.movie .title {
+  flex: 1 0 50%;
+}
+
+.movie, .column {
+  flex: 1 0 25%;
+}
+
+
